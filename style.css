@@ -1,4 +1,51 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: black;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#input-field {
+    width: 317px;
+    height: 118px;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 15px;
+    color: #8F8F8F;
+    background-color: #444059;
+    border-radius: 8px;
+    border: none;
+}
+
+#btn {
+    width: 317px;
+    height: 61px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #04131C;
+    background-color: #28A9F1;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
 }
