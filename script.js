@@ -22,11 +22,17 @@ buttonEl.addEventListener("click", function() {
 
 onValue(endorsementsInDB, function(snapshot) {
     let itemsArray = Object.values(snapshot.val())
+
+    clearEndorsementsListEl()
     
     for(let i = 0; i < itemsArray.length; i++) {
         appendItemToEndorsementsListEl(itemsArray[i])
     }
 })
+
+function clearEndorsementsListEl() {
+    endorsementsListEl.innerHTML = ""
+}
 
 function clearInputFieldEl() {
     inputFieldEl.value = ""
