@@ -35,6 +35,9 @@ h1 {
     background-color: #444059;
     border-radius: 8px;
     border: none;
+    resize: none;
+    text-align: left;
+    padding: 10px;
 }
 
 #btn {
@@ -49,3 +52,4 @@ h1 {
     border: none;
     margin-top: 10px;
 }
+
