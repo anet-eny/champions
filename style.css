@@ -53,6 +53,27 @@ h1 {
     margin-top: 10px;
 }
 
-ul {
+h2 {
     color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0 5px 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    color: white;
+    list-style: none;
+}
+
+ul li {
+    width: 317px;
+    box-sizing: border-box;
+    margin: 15px 0;
+    padding: 15px;
+    color: #1B1924;
+    background-color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
 }
